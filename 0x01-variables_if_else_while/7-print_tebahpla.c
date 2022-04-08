@@ -3,14 +3,20 @@
 /**
  * main - Entry point
  *
- * Return: ALways 0 (Success)
+ * Return: Always o (Success)
  */
 int main(void)
 {
-	char c = 'z';
+	int n = 48;
 
-	for (; c >= 'a'; c--)
-		putchar(c);
+	for (; n <= 57; n++)
+	{
+		putchar(n);
+		if (n == 57)
+			break;
+		putchar(',');
+		putchar(32);
+	}
 	putchar('\n');
 	return (0);
 }

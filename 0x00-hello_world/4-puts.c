@@ -1,4 +1,3 @@
-#!/bin/bash
 #include <stdio.h>
 /**
  * main - entry point
@@ -10,4 +9,3 @@ int main(void)
 puts("\"programing is like building a multilungal puzzle");
 return (0);
 ]
-
